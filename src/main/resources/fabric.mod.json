@@ -16,22 +16,13 @@
 	"environment": "*",
 	"entrypoints": {
 		"main": [
-			{
-				"value": "com.justaradio.Justaradio",
-				"adapter": "kotlin"
-			}
+			"com.justaradio.Justaradio"
 		],
 		"client": [
-			{
-				"value": "com.justaradio.client.JustaradioClient",
-				"adapter": "kotlin"
-			}
+			"com.justaradio.client.JustaradioClient"
 		],
 		"fabric-datagen": [
-			{
-				"value": "com.justaradio.client.JustaradioDataGenerator",
-				"adapter": "kotlin"
-			}
+			"com.justaradio.client.JustaradioDataGenerator"
 		]
 	},
 	"mixins": [
@@ -43,9 +34,8 @@
 	],
 	"depends": {
 		"fabricloader": ">=0.20.1",
-		"minecraft": "~26.1",
+		"minecraft": "~26.1.2",
 		"java": ">=25",
-		"fabric-api": "*",
-		"fabric-language-kotlin": "*"
+		"fabric-api": "*"
 	}
 }
