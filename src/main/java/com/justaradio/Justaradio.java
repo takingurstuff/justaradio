@@ -7,6 +7,9 @@ import net.minecraft.resources.Identifier;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import com.justaradio.item.ModItems;
+import com.justaradio.item.ModItemIds;
+
 public class Justaradio implements ModInitializer {
 	public static final String MOD_ID = "justaradio";
 
@@ -21,7 +24,8 @@ public class Justaradio implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		ModItems.initialize();
+		LOGGER.info("Mad milk stick (its not milk)!");
 	}
 
 	public static Identifier id(String path) {
