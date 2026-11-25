@@ -8,7 +8,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.justaradio.item.ModItems;
-import com.justaradio.item.ModItemIds;
+import com.justaradio.block.ModBlocks;
 
 public class Justaradio implements ModInitializer {
 	public static final String MOD_ID = "justaradio";
@@ -25,6 +25,7 @@ public class Justaradio implements ModInitializer {
 		// Proceed with mild caution.
 
 		ModItems.initialize();
+		ModBlocks.initialize();
 		LOGGER.info("Mad milk stick (its not milk)!");
 	}
 

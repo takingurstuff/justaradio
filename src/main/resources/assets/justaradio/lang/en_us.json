@@ -1,3 +1,5 @@
 {
-  "item.justaradio.funni_stick": "Funni Stik"
+  "item.justaradio.funni_stick": "Funni Stik",
+  "itemTooltip.justaradio.funni_stick.info": "Which one of you maggots is jorking",
+  "block.justartadio.cable": "Cable"
 }
