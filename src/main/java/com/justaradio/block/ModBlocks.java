@@ -18,7 +18,7 @@ import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.fabricmc.fabric.api.creativetab.v1.CreativeModeTabEvents;
 
 public class ModBlocks {
-    public static final Block CABLE = register("cable", Block::new, BlockBehaviour.Properties.of().sound(SoundType.COPPER_GRATE), true);
+    public static final Block CABLE = register("cable", CableBlock::new, BlockBehaviour.Properties.of().sound(SoundType.COPPER_GRATE), true);
 
 	private static Block register(String name, Function<BlockBehaviour.Properties, Block> blockFactory, BlockBehaviour.Properties properties, boolean shouldRegisterItem) {
 		// Create a registry key for the block

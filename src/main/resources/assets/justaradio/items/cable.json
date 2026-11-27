@@ -1,6 +1,6 @@
 {
   "model": {
     "type": "minecraft:model",
-    "model": "justaradio:item/funni_stick"
+    "model": "justaradio:block/cable"
   }
 }
